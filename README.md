@@ -1,3 +1,22 @@
+# Python Version
+
+## Usage
+1. create and activate a virtual environment
+```bash
+conda create -n env_name python=3.8 -y
+conda activate env_name
+```
+2. install the required packages
+```bash
+pip install -r requirements.txt
+```
+3. run the demo
+```bash
+python demo.py
+```
+
+--------------------------------------------
+
 # Hyperspectral-Anomaly-Detection-by-Fractional-Fourier-Entropy
 This demo implements FRFE-RX destriping for HSI [1]
 More details in:
